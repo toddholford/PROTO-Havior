@@ -1,0 +1,46 @@
+﻿Player
+
+Stats:
+-Attack
+-Defense
+-Speed
+-Health
+-Recovery
+
+Starting Stats:
+-Attack = 6 ^
+-Defense = 4
+-Speed = 5
+-Health = 5
+-Recovery = 4
+
+Fighter Type:
+-Swordsman/Swordswomen
+
+Fighter Type Stat Boost:
+-Swordsman = Attack+
+             Recovery+
+
+Highest Stat:
+-Attack
+
+Hidden Advantage Boost for Stats (based on highest stat):
+-Attack > Attack    = 1.0x
+        > Defense   = 0.5x
+        > Speed     = 2.0x
+        > Health    = 1.0x
+        > Recovery  = 1.0x
+        
+Hidden Disadvantage Boost for Stats (based on highest stat):
+-Attack > Attack    = 1.0x
+        > Defense   = 1.0x
+        > Speed     = 1.0x
+        > Health    = 1.0x
+        > Recovery  = 1.0x
+        
+Stats during fight with Fighter Type, Advantage, and Disadvantage Stat boosts:
+-Attack = 6
+-Defense = 4
+-Speed = 5
+-Health = 5
+-Recovery = 4
